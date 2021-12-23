@@ -11,6 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <img src="/TR_Logo-600x600.png" className="logo" />
         <Header title="Welcome to the BTS!" />
         <p className="description">
           The Fractal sequence has been created using the Mandelbrot equation:
@@ -20,9 +21,7 @@ export default function Home() {
         <p>This is mirrored over both horizontally and vertically.</p>
       </main>
 
-      <section className="main">
         <img src="/RenderSnap.png" className="img" />
-      </section>
 
       <section className="downloads">
         <b>Downloads</b>
