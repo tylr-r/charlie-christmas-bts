@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 * {
@@ -49,12 +49,27 @@ section {
   padding-bottom: 24px;
 }
 
+.image-container {
+  width: 100%;
+}
+
+.image-container span {
+  position: relative !important;
+}
+
+.image-container .image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
 .downloads {
   text-align: center;
 }
 
 a {
-  text-decoration: none!important;
+  text-decoration: none !important;
   color: #6867ac;
 }
 

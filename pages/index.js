@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -28,9 +29,12 @@ export default function Home() {
         {/*  <p className="description">
           This is mirrored over both horizontally and vertically.
         </p> */}
+        <div className={'image-container'}>
+          <Image src={'/RenderSnap.png'} layout="fill" className={'image'} />
+        </div>
       </main>
 
-      <img src="/RenderSnap.png" className="img" />
+      {/* <img src="/RenderSnap.png" className="img" /> */}
 
       <section className="downloads">
         <p className="descritpion">
