@@ -17,15 +17,15 @@ export default function Home() {
           The Fractal sequence has been created using the Mandelbrot equation:
         </p>
         <br />
-        <b>z=z^7+c</b>
-        <p>This is mirrored over both horizontally and vertically.</p>
+        <h2>z=z^7+c</h2>
+        <p className="description">This is mirrored over both horizontally and vertically.</p>
       </main>
 
         <img src="/RenderSnap.png" className="img" />
 
       <section className="downloads">
         <b>Downloads</b>
-        <a href="/01CharlieChristmas.mp4"><p>Download the video</p></a>
+        <a href="/01CharlieChristmas.mp4" target="_blank" download><p>Download the video</p></a>
         </section>
 
       <Footer />

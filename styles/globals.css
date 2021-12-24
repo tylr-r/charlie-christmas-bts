@@ -58,6 +58,10 @@ a {
   color: #6867ac;
 }
 
+.description {
+  width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
   .img {
     max-width: 80%;
