@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  padding: 5rem 0;
+  padding: 5rem 0 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -36,11 +36,11 @@ code {
 
 section {
   max-width: 1200px;
-  padding-bottom: 100px;
+  padding-bottom: 2rem;
 }
 
 .logo {
-  width: 150px;
+  width: 100px;
 }
 
 .img {
@@ -60,6 +60,7 @@ a {
 
 .description {
   width: 100%;
+  text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
