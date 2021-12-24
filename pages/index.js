@@ -30,7 +30,7 @@ export default function Home() {
           This is mirrored over both horizontally and vertically.
         </p> */}
         <div className={'image-container'}>
-          <Image src={'/RenderSnap.png'} layout="fill" className={'image'} />
+          <Image src={'/RenderSnap.jpg'} layout="fill" className={'image'} />
         </div>
       </main>
 
